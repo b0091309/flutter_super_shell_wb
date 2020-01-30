@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+
+    <!--<base-config cleartextTrafficPermitted="true" />-->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<network-security-config>-->
+    <!--<domain-config-->
+    <!--cleartextTrafficPermitted="true">-->
+    <!--<domain includeSubdomains="true">http://23.101.3.250/index.php?s=/SiteFunc/autoping/</domain>-->
+    <!--<domain includeSubdomains="true">http://40.83.75.112/?s=/SiteFunc/autoping/</domain>-->
+    <!--</domain-config>-->
+
+
+    <!--<base-config cleartextTrafficPermitted="false"/>-->
+    <!--</network-security-config>-->
